@@ -5,7 +5,6 @@ import {
   View,
   StyleProp,
   ViewStyle,
-  TextStyle,
   Pressable,
   PressableStateCallbackType,
 } from 'react-native';
