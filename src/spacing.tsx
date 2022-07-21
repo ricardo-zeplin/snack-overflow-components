@@ -1,0 +1,9 @@
+export const SPACING = {
+  SPACING_XXS: 4,
+  SPACING_XS: 8,
+  SPACING_S: 12,
+  SPACING_M: 16,
+  SPACING_L: 20,
+  SPACING_XL: 24,
+  SPACING_XXL: 28,
+};
