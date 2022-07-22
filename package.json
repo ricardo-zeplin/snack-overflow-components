@@ -1,7 +1,16 @@
 {
-  "name": "SnackOverflowMobileComponents",
+  "name": "snack-overflow-components",
   "version": "0.0.1",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardo-zeplin/snack-overflow-components"
+  },
+  "author": {
+    "email": "ricardo@zeplin.io",
+    "name": "Ricardo Martins",
+    "url": "https://www.zeplin.io"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
