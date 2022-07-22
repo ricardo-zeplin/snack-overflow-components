@@ -20,7 +20,7 @@
     "prestart": "npm run update-stories",
     "storybook-watcher": "sb-rn-watcher --config-path .ondevice",
     "storybook": "start-storybook -s ./assets -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -o docs-build -s ./assets",
     "zeplin-connect": "zeplin connect",
     "zeplin-connect-dev-mode": "zeplin connect --dev"
   },
