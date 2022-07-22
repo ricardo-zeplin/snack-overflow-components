@@ -1,12 +1,14 @@
 import React from 'react';
-import {ComponentMeta, ComponentStory} from '@storybook/react';
+import {ComponentStory, Meta} from '@storybook/react';
 
 import {Button} from './Button';
+import {Icon} from '../Icon/Icon';
 
 export default {
   title: 'components/Button',
   component: Button,
-} as ComponentMeta<typeof Button>;
+  subcomponents: {Icon},
+} as Meta;
 
 export const Basic: ComponentStory<typeof Button> = args => (
   <Button {...args} />
