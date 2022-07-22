@@ -20,7 +20,8 @@
     "prestart": "npm run update-stories",
     "storybook-watcher": "sb-rn-watcher --config-path .ondevice",
     "storybook": "start-storybook -s ./assets -p 6006",
-    "build-storybook": "build-storybook -o docs-build -s ./assets",
+    "build-storybook": "build-storybook -s ./assets",
+    "deploy-storybook": "storybook-to-ghpages",
     "zeplin-connect": "zeplin connect",
     "zeplin-connect-dev-mode": "zeplin connect --dev"
   },
@@ -44,6 +45,7 @@
     "@storybook/addon-react-native-web": "^0.0.18",
     "@storybook/react": "6.5",
     "@storybook/react-native": "^6.0.1-beta.5",
+    "@storybook/storybook-deployer": "^2.8.12",
     "@storybook/testing-library": "^0.0.13",
     "@types/react": "^17.0.47",
     "@types/react-native": "^0.67.3",
