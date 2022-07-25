@@ -19,8 +19,8 @@ if (parameters) {
 
 const getStories = () => {
   return [
-    require("../src/components/Button/Button.stories.tsx"),
-    require("../src/components/Icon/Icon.stories.tsx"),
+    require("../src/stories/Button.stories.tsx"),
+    require("../src/stories/Icon.stories.tsx"),
   ];
 };
 
