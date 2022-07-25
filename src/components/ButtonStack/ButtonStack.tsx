@@ -44,18 +44,18 @@ export const ButtonStack = ({
       ]}>
       <Button
         disabled={disabled}
-        icon={secondaryIcon}
-        onPress={secondaryOnPress}
-        primary={false}
-        text={secondaryText}
+        icon={sideBySide ? secondaryIcon : primaryIcon}
+        onPress={sideBySide ? secondaryOnPress : primaryOnPress}
+        primary={!sideBySide}
+        text={sideBySide ? secondaryText : primaryText}
         size={sideBySide ? 'small' : 'normal'}
       />
       <Button
         disabled={disabled}
-        icon={primaryIcon}
-        onPress={primaryOnPress}
-        primary={true}
-        text={primaryText}
+        icon={sideBySide ? primaryIcon : secondaryIcon}
+        onPress={sideBySide ? primaryOnPress : secondaryOnPress}
+        primary={sideBySide}
+        text={sideBySide ? primaryText : secondaryText}
         size={sideBySide ? 'small' : 'normal'}
       />
     </View>
