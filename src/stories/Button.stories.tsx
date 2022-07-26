@@ -10,14 +10,6 @@ export default {
   subcomponents: {Icon},
 } as Meta;
 
-export const Basic: ComponentStory<typeof Button> = args => (
-  <Button {...args} />
-);
-
-Basic.args = {
-  text: 'This is a button',
-};
-
 export const PrimaryHasIconEnabled: ComponentStory<typeof Button> = args => (
   <Button {...args} />
 );
