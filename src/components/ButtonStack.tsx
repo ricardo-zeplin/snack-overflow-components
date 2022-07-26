@@ -22,6 +22,14 @@ const styles = StyleSheet.create({
     padding: SPACING.SPACING_M,
     justifyContent: 'space-between',
   },
+  buttonStack_normal: {
+    height: 160,
+    flexDirection: 'column',
+  },
+  buttonStack_sideBySide: {
+    height: 88,
+    flexDirection: 'row',
+  },
 });
 
 export const ButtonStack = ({
@@ -38,9 +46,7 @@ export const ButtonStack = ({
     <View
       style={[
         styles.buttonStack,
-        sideBySide
-          ? {height: 88, flexDirection: 'row'}
-          : {height: 160, flexDirection: 'column'},
+        sideBySide ? styles.buttonStack_sideBySide : styles.buttonStack_normal,
       ]}>
       <Button
         disabled={disabled}

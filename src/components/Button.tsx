@@ -45,6 +45,12 @@ const styles = StyleSheet.create({
   icon: {
     width: 24,
   },
+  buttonContainer_small: {
+    width: 123,
+  },
+  buttonContainer_normal: {
+    width: 310,
+  },
 });
 
 export const Button = ({
@@ -113,7 +119,9 @@ export const Button = ({
       <View
         style={[
           styles.buttonContainer,
-          size === 'small' ? {width: 123} : {width: 310},
+          size === 'small'
+            ? styles.buttonContainer_small
+            : styles.buttonContainer_normal,
         ]}>
         {icon !== undefined && <Icon name={icon} color={textColor} />}
         <Text style={[styles.buttonText, {color: textColor}]}>{text}</Text>
