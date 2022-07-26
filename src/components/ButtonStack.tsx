@@ -1,8 +1,8 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import {SPACING} from '../../spacing';
-import {Button} from '../Button/Button';
-import {Icons} from '../Icon/Icon';
+import {SPACING} from '../spacing';
+import {Button} from './Button';
+import {Icons} from './Icon/Icon';
 
 export type ButtonStackProps = {
   primaryOnPress: () => void;

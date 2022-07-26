@@ -20,7 +20,9 @@ if (parameters) {
 const getStories = () => {
   return [
     require("../src/stories/Button.stories.tsx"),
+    require("../src/stories/ButtonStack.stories.tsx"),
     require("../src/stories/Icon.stories.tsx"),
+    require("../src/stories/SocialLogin.stories.tsx"),
   ];
 };
 

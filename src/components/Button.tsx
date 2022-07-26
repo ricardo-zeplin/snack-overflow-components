@@ -8,9 +8,9 @@ import {
   Pressable,
   PressableStateCallbackType,
 } from 'react-native';
-import {COLORS} from '../../colors';
-import {SPACING} from '../../spacing';
-import {Icon, Icons} from '../Icon/Icon';
+import {COLORS} from '../colors';
+import {SPACING} from '../spacing';
+import {Icon, Icons} from './Icon/Icon';
 
 export type ButtonSize = 'small' | 'normal';
 

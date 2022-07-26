@@ -1,11 +1,11 @@
 import React from 'react';
 import {ComponentStory, Meta} from '@storybook/react';
 
-import {Button} from '../components/Button/Button';
+import {Button} from '../components/Button';
 import {Icon} from '../components/Icon/Icon';
 
 export default {
-  title: 'components/Button',
+  title: 'Button',
   component: Button,
   subcomponents: {Icon},
 } as Meta;
