@@ -7,4 +7,7 @@ export default {
   component: SocialLogin,
 } as ComponentMeta<typeof SocialLogin>;
 
+/**
+ * This is the Social Login button stack
+ */
 export const Basic: ComponentStory<typeof SocialLogin> = () => <SocialLogin />;

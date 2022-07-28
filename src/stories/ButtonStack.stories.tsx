@@ -11,6 +11,9 @@ export default {
   subcomponents: {Icon, Button},
 } as Meta;
 
+/**
+ * This is a button stack with buttons on top of each other
+ */
 export const Normal: ComponentStory<typeof ButtonStack> = args => (
   <ButtonStack {...args} />
 );
@@ -20,6 +23,9 @@ Normal.args = {
   secondaryText: 'Secondary',
 };
 
+/**
+ * This is a button stack with buttons side by side
+ */
 export const SideBySide: ComponentStory<typeof ButtonStack> = args => (
   <ButtonStack {...args} />
 );
